@@ -1,0 +1,41 @@
+import turtle
+t = turtle.Turtle()
+t1 = turtle.Turtle()
+
+
+
+t.forward(100)
+t.left(45)
+t.forward(100)
+t.left(45)
+t.forward(100)
+t.left(45)
+t.forward(100)
+t.left(45)
+t.forward(100)
+t.left(45)
+t.forward(100)
+t.left(45)
+t.forward(100)
+t.left(45)
+t.forward(100)
+
+t1 = turtle.Turtle()
+t1.color("pink")
+for x in range(1,360):
+    t1.forward(1)
+    t1.right(1)
+
+t = turtle.Turtle()
+t.forward(100)
+t.left(60)
+t.forward(100)
+t.left(60)
+t.forward(100)
+t.left(60)
+t.forward(100)
+t.left(60)
+t.forward(100)
+t.left(60)
+t.forward(100)
+turtle.mainloop()
